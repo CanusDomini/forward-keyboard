@@ -1,5 +1,5 @@
 require 'hidapi'
-
+require_relative 'mock'
 @osx_hid_info = `system_profiler -xml SPUSBDataType`
 
 
@@ -12,3 +12,4 @@ product_id = "" # Get that from above xml glob
 device = HIDAPI::Open(vendor_id, product_id)
 
 
+p system_profiler_mock

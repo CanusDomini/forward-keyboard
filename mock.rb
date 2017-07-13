@@ -1,5 +1,5 @@
 def system_profiler_mock
-  return "<?xml version="1.0" encoding="UTF-8"?>
+  return '''<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <array>
@@ -304,6 +304,7 @@ def system_profiler_mock
         </dict>
     </dict>
 </array>
-</plist>"
+</plist>'''
 end
 
+p system_profiler_mock
