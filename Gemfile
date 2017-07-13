@@ -2,3 +2,5 @@
 source "https://rubygems.org"
 
 gem 'hidapi'
+gem 'nokogiri'
+gem 'activesupport'

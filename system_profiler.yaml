@@ -1,0 +1,250 @@
+---
+plist:
+  version: '1.0'
+  array:
+    dict:
+      key:
+      - _SPCommandLineArguments
+      - _SPCompletionInterval
+      - _SPResponseTime
+      - _dataType
+      - _detailLevel
+      - _items
+      - _parentDataType
+      - _properties
+      - _timeStamp
+      - _versionInfo
+      array:
+      - string:
+        - "/usr/sbin/system_profiler"
+        - "-nospawn"
+        - "-xml"
+        - SPUSBDataType
+        - "-detailLevel"
+        - full
+      - dict:
+          key:
+          - _items
+          - _name
+          - host_controller
+          - pci_device
+          - pci_revision
+          - pci_vendor
+          array:
+            dict:
+            - key:
+              - Built-in_Device
+              - _name
+              - bcd_device
+              - bus_power
+              - bus_power_used
+              - device_speed
+              - extra_current_used
+              - location_id
+              - manufacturer
+              - product_id
+              - vendor_id
+              string:
+              - 'Yes'
+              - Apple Internal Keyboard / Trackpad
+              - '2.24'
+              - '500'
+              - '40'
+              - full_speed
+              - '0'
+              - 0x14400000 / 2
+              - Apple Inc.
+              - '0x0259'
+              - apple_vendor_id
+            - key:
+              - Built-in_Device
+              - _items
+              - _name
+              - bcd_device
+              - bus_power
+              - bus_power_used
+              - device_speed
+              - extra_current_used
+              - location_id
+              - manufacturer
+              - product_id
+              - vendor_id
+              string:
+              - 'Yes'
+              - BRCM20702 Hub
+              - '1.00'
+              - '500'
+              - '94'
+              - full_speed
+              - '0'
+              - 0x14300000 / 3
+              - Apple Inc.
+              - '0x4500'
+              - 0x0a5c  (Broadcom Corp.)
+              array:
+                dict:
+                  key:
+                  - Built-in_Device
+                  - _name
+                  - bcd_device
+                  - bus_power
+                  - bus_power_used
+                  - device_speed
+                  - extra_current_used
+                  - location_id
+                  - manufacturer
+                  - product_id
+                  - vendor_id
+                  string:
+                  - 'Yes'
+                  - Bluetooth USB Host Controller
+                  - '1.37'
+                  - '500'
+                  - '0'
+                  - full_speed
+                  - '0'
+                  - 0x14330000 / 7
+                  - Apple Inc.
+                  - '0x8289'
+                  - apple_vendor_id
+          string:
+          - USB30Bus
+          - AppleUSBXHCILPT
+          - '0x9c31 '
+          - '0x0004 '
+          - '0x8086 '
+      real:
+      - '0.046747982501983643'
+      - '0.13340103626251221'
+      string:
+      - SPUSBDataType
+      - SPHardwareDataType
+      integer: "-1"
+      dict:
+      - key:
+        - 1284DeviceID
+        - _name
+        - bcd_device
+        - bsd_name
+        - bus_power
+        - bus_power_desired
+        - bus_power_used
+        - detachable_drive
+        - device_manufacturer
+        - device_model
+        - device_revision
+        - device_serial
+        - device_speed
+        - disc_burning
+        - extra_current_used
+        - file_system
+        - free_space
+        - free_space_in_bytes
+        - location_id
+        - manufacturer
+        - mount_point
+        - optical_drive_type
+        - optical_media_type
+        - product_id
+        - removable_media
+        - serial_num
+        - size
+        - size_in_bytes
+        - sleep_current
+        - vendor_id
+        - volumes
+        - writable
+        dict:
+        - key: _order
+          string: '13'
+        - key:
+          - _isColumn
+          - _isOutlineColumn
+          - _order
+          string:
+          - 'YES'
+          - 'YES'
+          - '0'
+        - key:
+          - _order
+          - _suppressLocalization
+          string:
+          - '3'
+          - 'YES'
+        - key: _order
+          string: '42'
+        - key: _order
+          string: '8'
+        - key: _order
+          string: '9'
+        - key: _order
+          string: '10'
+        - key: _order
+          string: '39'
+        - key: _order
+          string: '20'
+        - key: _order
+          string: '22'
+        - key: _order
+          string: '24'
+        - key: _order
+          string: '26'
+        - key: _order
+          string: '5'
+        - key: _order
+          string: '32'
+        - key: _order
+          string: '11'
+        - key: _order
+          string: '40'
+        - key:
+          - _deprecated
+          - _order
+          'true': 
+          string: '19'
+        - key:
+          - _isByteSize
+          - _order
+          'true': 
+          string: '19'
+        - key: _order
+          string: '7'
+        - key: _order
+          string: '6'
+        - key: _order
+          string: '44'
+        - key: _order
+          string: '30'
+        - key: _order
+          string: '31'
+        - key: _order
+          string: '1'
+        - key: _order
+          string: '34'
+        - key:
+          - _order
+          - _suppressLocalization
+          string:
+          - '4'
+          - 'YES'
+        - key:
+          - _deprecated
+          - _order
+          'true': 
+          string: '18'
+        - key:
+          - _isByteSize
+          - _order
+          'true': 
+          string: '18'
+        - key: _order
+          string: '12'
+        - key: _order
+          string: '2'
+        - key: _detailLevel
+          string: '0'
+        - key: _order
+          string: '36'
+      - key: com.apple.SystemProfiler.SPUSBReporter
+        string: 900.4.1
+      date: '2017-07-13T06:03:16Z'

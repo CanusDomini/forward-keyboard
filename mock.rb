@@ -306,5 +306,3 @@ def system_profiler_mock
 </array>
 </plist>'''
 end
-
-p system_profiler_mock
