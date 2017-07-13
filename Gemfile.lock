@@ -1,0 +1,19 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    ffi (1.9.18)
+    hidapi (0.1.9)
+      i18n
+      libusb (~> 0.5.1)
+    i18n (0.8.6)
+    libusb (0.5.1)
+      ffi (>= 1.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  hidapi
+
+BUNDLED WITH
+   1.15.1
