@@ -15,8 +15,6 @@ p @osx_hid_info.class
 # Parse the @osx_hid_info variable which is a glob of XML
 # pull out the vendor_id and product_id strings and save them to variables
 
-@vendor_id = "" # Get this by parsing the above XML
-@product_id = "" # Get that from above xml glob
 
 #device = HIDAPI::Open(vendor_id, product_id)
 
@@ -43,8 +41,8 @@ end
 File.open("system_profiler.debug.yaml", "w") do |file|
   file.write(top_level_array_value.to_yaml)
 end
-product_id = top_level_array_value[-2]
-vendor_id = top_level_array_value[-1]
+@product_id = top_level_array_value[-2]
+@vendor_id = top_level_array_value[-1]
 p "The product id: #{product_id}"
 p "The vendor id: #{vendor_id}"
 #
